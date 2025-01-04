@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&family=Roboto:wght@300&family=Secular+One&display=swap');
+body{
+	background-color:  #8B0000;
+	color: #FFFAF0;
+}
+
+
+.box{
+  	top: 50%;
+  	margin: 0 auto;
+}
+
+
+
+#p1{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative;
+    color :#FFFAF0;
+}
+
+#p2{
+	background-color:  red;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative;
+    color :#FFFAF0;
+}
+
+
+.h1-header .box .box-header{
+	margin-bottom:  5rem;
+	line-height:  40px;
+}
+
+
+
+
+/*text*/
+.t-web{
+	font-size:  25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:  500;
+}
+
+.t-utama{
+	color: #8B0000;
+}
+
+.t-kedua{
+	color: #FFFAF0;
+}
+
+.t-arab{
+	font-size:  25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.waktu{
+	color: #8B0000;
+	font-size:  35px;
+	font-weight:  600;
+}
+
+.t-putih{
+	color: white;
+}
+
+.t-hitam{
+	color: #000;
+}
+
+.bg-waktu{
+	font-size: 20px;
+	font-weight:  500;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.bg-waktu hover{
+	 transform: scale(1.5);
+}
+
+.bg-kedua{
+	background-color: #FFFAF0;
+	color: #8B0000;
+}
+
+.border-utama{
+	border-color: #8B0000;
+}
+
+.judul{
+	font-size:  60px;
+	padding-bottom: 20px;
+	font-family: 'Cookie', cursive;
+}
+
+.t-mempelai{
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+	margin: 30px;
+}
+
+.t-tgl{
+	font-family: 'Secular One', sans-serif;
+	font-size:  30px;
+}
+
+.content-1{
+	padding-top: 10px;
+}
+
+
+.text-icon{
+    padding: 25px;
+    font-size:  50px;
+    background-color:  #075079;
+    color: #fff;
+    border-radius:  50%;
+    margin: auto;
+}
+
+.t-10{
+	font-weight:  600;
+	font-size:  18px;
+}
+
+.t-tempat{
+	font-size: 18px;
+	font-weight:  700;
+}
+
+.box-icons{
+	margin-left:  20px;
+	margin-top: 20px;
+	margin-left:  20px;
+}
+
+
+
+.btn-musik{
+    background-color : #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    position: fixed;
+    margin: auto;
+    bottom: 10px;
+    left: 10px;
+    z-index:  1000;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.h1-header .box .box-header{
+		margin-bottom:  4rem;
+	}
+
+	h1 .t-web{
+		font-size:  150px;
+	}
+}

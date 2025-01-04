@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&family=Roboto:wght@300&family=Secular+One&display=swap');
+body{
+	background-color:  #FFFAF0;
+	color: #8B0000;
+}
+
+#overlay { 
+ 	width: 100%;
+ 	background-image:  url(https://png.pngtree.com/background/20210709/original/pngtree-pink-flower-plant-floral-background-picture-image_280966.jpg);
+ 	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 	position: fixed;
+ 	left: 0px;
+ 	top: 0px;
+ 	z-index: 98;
+ } 
+
+ .outer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/** media queries for phones and up*/
+
+.kartu-ucapan{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+
+#s1{
+	background-image:  url(img/frame2.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative;
+    color :#fff;
+}
+
+#s2{
+	background-color:  #FFFAF0;
+    background-position: center;
+    min-height: 200px;
+    margin: 0 auto; 
+    position: relative;
+    color :#000;
+}
+
+#s3{
+	background-color:  #8B0000;
+    background-position: center;
+    min-height: 200px;
+    margin: 0 auto; 
+    position: relative;
+    color :#fffaf0;
+}
+
+#s4{
+	background-color:  #FFFAF0;
+    background-position: center;
+    min-height: 200px;
+    margin: 0 auto; 
+    position: relative;
+    color :#8B0000;
+}
+
+
+#footer{
+	background-color:  #8B0000;
+    background-position: center;
+    margin: 0 auto; 
+    position: relative;
+    color :#fffaf0;
+}
+
+
+.btn-medsos{
+	background-color: #8B0000; /* Green */
+	border: none;
+  	color: white;
+  	padding: 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+
+.btn-medsos:hover{
+	background-color: #FFFAF0; /* Green */
+	border: none;
+  	color: #000;
+  	padding: 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+	
+
+
+.t-putih{
+	color: white;
+}
+
+.t-hitam{
+	color: #000;
+}
+
+.arab-web{
+	font-size:  25px;
+	font-family: 'Roboto', sans-serif;
+}
+.t-web{
+	font-size:  25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:  500;
+}
+
+.text-utama{
+	color: #8B0000;
+}
+
+.waktu{
+	color: #8B0000;
+	font-size:  35px;
+	font-weight:  600;
+}
+
+.t-kedua{
+	color: #FFFAF0;
+}
+
+.bg-waktu{
+	font-size: 20px;
+	font-weight:  500;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.bg-waktu .hover{
+	 transform: scale(1.5);
+}
+
+.bg-kedua{
+	background-color: #FFFAF0;
+	color: #8B0000;
+}
+
+.border-utama{
+	border-color: #8B0000;
+}
+
+.judul{
+	font-size:  60px;
+	padding-bottom: 20px;
+	font-family: 'Cookie', cursive;
+}
+
+.t-mempelai{
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+	margin: 30px;
+}
+
+.t-tgl{
+	font-family: 'Secular One', sans-serif;
+	font-size:  30px;
+}
+
+.content-1{
+	padding-top: 10px;
+}
+
+
+.text-icon{
+    padding: 25px;
+    font-size:  50px;
+    background-color:  #075079;
+    color: #fff;
+    border-radius:  50%;
+    margin: auto;
+}
+
+.t-10{
+	font-weight:  600;
+	font-size:  18px;
+}
+
+.t-tempat{
+	font-size: 18px;
+	font-weight:  700;
+}
+
+.box-icons{
+	margin-left:  20px;
+	margin-top: 20px;
+	margin-left:  20px;
+}
+
+
+
+.btn-musik{
+    background-color : #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    position: fixed;
+    margin: auto;
+    bottom: 10px;
+    left: 10px;
+    z-index:  1000;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	#overlay { 
+	 	width: 100%;
+	 background-image:  url(https://png.pngtree.com/background/20210709/original/pngtree-pink-flower-plant-floral-background-picture-image_280966.jpg);
+ 	background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	 	position: fixed;
+	 	left: 0px;
+	 	top: 0px;
+	 	z-index: 98;
+	 }
+
+	#s1{
+		background-image:  url(https://png.pngtree.com/background/20210709/original/pngtree-pink-flower-plant-floral-background-picture-image_280966.jpg);
+ 	background-size: cover;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-position: center; 
+	    height: 100vh; /* 100% of viewport height */
+	    margin: 0 auto; 
+	    position: relative;
+	    color :#fff;
+	}
+
+	#s2{
+		background-color:  #FFFAF0;
+	    background-position: center;
+	    min-height: 200px;
+	    margin: 0 auto; 
+	    position: relative;
+	    color :#000;
+	}
+
+	#s3{
+		background-color:  #8B0000;
+	    background-position: center;
+	    min-height: 200px;
+	    margin: 0 auto; 
+	    position: relative;
+	    color :#fffaf0;
+	}
+
+	#s4{
+		background-color:  #FFFAF0;
+	    background-position: center;
+	    min-height: 200px;
+	    margin: 0 auto; 
+	    position: relative;
+	    color :#8B0000;
+	}
+
+
+	#footer{
+		background-color:  #8B0000;
+	    background-position: center;
+	    margin: 0 auto; 
+	    position: relative;
+	    color :#fffaf0;
+	}
+
+	.content-1{
+		padding-top: 80px;
+	}
+
+	.waktu{
+		color: #8B0000;
+		font-size:  20px;
+		font-weight:  600;
+	}
+
+	.bg-waktu{
+		font-size: 16px;
+		font-weight:  500;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+
+}
+
+
+@media (min-width: 700px) { 
+	.p {
+		font-size:  50px;
+	}
+
+	
+}
